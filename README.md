@@ -1,4 +1,4 @@
-# vscode-custom-config
+# VSCode Custom Config
 
 A custom configuration for vscode built using APC Customize UI++ and pure css
 This config is built using the [Ommi Owl](https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl) theme as base, colors are chosen based on theme colors, but feel free to change whatever you need

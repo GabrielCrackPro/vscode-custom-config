@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #9084bd;
+  --transparent-background: transparent;
+}
+
+/* General Input Styles */
+.search-widget .monaco-button,
+.find-part .controls .monaco-custom-toggle.checked,
+.replace-part .controls .monaco-custom-toggle.checked,
+.search-container .monaco-inputbox,
+.replace-container .monaco-inputbox,
+.find-part .monaco-inputbox,
+.replace-part .monaco-inputbox {
+  background: var(--transparent-background) !important;
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.find-part .monaco-inputbox .input::placeholder,
+.replace-part .monaco-inputbox .input::placeholder {
+  font-size: 13px !important;
+}
+
+/* Control and Toggle Styles */
+.find-part .controls,
+.find-part .find-actions .matchesCount,
+.find-part .find-actions .codicon,
+.find-widget .codicon,
+.replace-part .replace-actions .codicon,
+.replace-part .controls .monaco-custom-toggle,
+.search-widgets-container .codicon,
+.search-widgets-container .search-widget .controls .monaco-custom-toggle,
+.search-widgets-container .search-widget .codicon-search-show-replace,
+.search-widgets-container .search-widget .codicon-search-hide-replace,
+.replace-container
+  .monaco-action-bar
+  .action-item
+  .action-label.codicon.codicon-search-replace-all {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+/* Find Widget Styles */
+.find-widget {
+  box-shadow: none !important;
+}
+
+/* Additional Specific Styles */
+.find-part .controls .monaco-custom-toggle.checked,
+.replace-part .controls .monaco-custom-toggle.checked {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.find-part .find-actions .codicon,
+.codicon.codicon-widget-close,
+.find-widget .codicon-find-collapsed,
+.find-widget .codicon-find-expanded,
+.replace-part .replace-actions .codicon-find-replace,
+.replace-part .replace-actions .codicon-find-replace-all {
+  color: var(--primary-color) !important;
+}
+
+.search-widgets .query-details .monaco-findInput .monaco-inputbox .ibwrapper {
+  outline: none !important;
+}

@@ -1,0 +1,23 @@
+.monaco-editor .suggest-widget,
+.monaco-editor .suggest-widget .message {
+  border-radius: 20px !important;
+  background: #211a2c !important;
+}
+
+.monaco-editor .suggest-widget .monaco-list-row {
+  color: #867baf !important;
+}
+
+.monaco-editor .suggest-widget .monaco-list-row.focused {
+  background: #393350 !important;
+  font-weight: bold !important;
+}
+
+.monaco-editor .suggest-details {
+  backdrop-filter: blur(3px) !important;
+  border: none !important;
+  border-radius: 15px !important;
+  background: #211a2c !important;
+  color: #867baf !important;
+  font-weight: bold !important;
+}

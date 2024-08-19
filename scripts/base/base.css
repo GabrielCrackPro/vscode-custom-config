@@ -1,0 +1,289 @@
+:root {
+  --primary-color: #9084bd;
+  --secondary-color: #5a4b82;
+  --tertiary-color: #6f6292;
+  --highlight-color: #514575;
+  --tooltip-background: #211a2c;
+  --tooltip-text-color: #867baf;
+  --link-color: #393350;
+  --background-dark: #13121d;
+}
+
+/* General Styles */
+.title-label h2 {
+  text-transform: capitalize !important;
+}
+
+.monaco-workbench .part > .title {
+  padding: 0 !important;
+}
+
+.status-border-top {
+  border-top: none !important;
+}
+
+.tab {
+  border-right: none !important;
+  background: transparent !important;
+  color: var(--tertiary-color) !important;
+  font-weight: bold !important;
+}
+
+.inline-tabs-placeholder {
+  display: none !important;
+}
+
+.border-top {
+  border-top: 1px solid !important;
+}
+
+.sidebar,
+.activitybar,
+.pane-header {
+  border: none !important;
+}
+
+.pane-header {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+.pane-body .message {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+.action-label.codicon {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+.bordered {
+  border: 1px transparent !important;
+}
+
+.badge {
+  top: 15px !important;
+  left: 5px !important;
+  padding: 0 !important;
+}
+
+.badge-content {
+  background: var(--primary-color) !important;
+  color: var(--highlight-color) !important;
+  border: 1px solid var(--primary-color) !important;
+  font-weight: bold !important;
+  font-size: 12px !important ;
+  transform: scale(0.75) !important;
+  transition: background-color 0.3s !important;
+}
+
+.action-item:hover .badge-content {
+  background: transparent !important;
+  color: var(--primary-color) !important;
+}
+
+.monaco-editor .scroll-decoration {
+  display: none !important;
+}
+
+.filematch .monaco-count-badge {
+  padding: 5px 6px 0 6px !important;
+}
+
+.sidebar .title-label {
+  padding: 0 !important;
+}
+
+.monaco-workbench .monaco-list:not(.element-focused):focus:before {
+  outline: none !important;
+}
+
+.monaco-icon.label {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.title.show-file-icons .label-container .monaco-icon-label.file-icon {
+  padding-bottom: 6px !important;
+}
+
+.sidebar .title-label h2 {
+  line-height: 2.8 !important;
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}
+
+.editor-actions {
+  display: none !important;
+}
+
+/* Remove Spotify Controls Padding */
+.statusbar-item[id="shyykoserhiy.vscode-spotify"] a {
+  padding: 0 !important;
+  margin-left: 3px !important;
+}
+
+/* Remove Spotify Lyrics Icon */
+.statusbar-item[id="shyykoserhiy.vscode-spotify"]
+  a[aria-label="book, Spotify Lyrics"] {
+  display: none !important;
+}
+
+.statusbar-item {
+  color: var(--secondary-color) !important;
+  font-weight: bold !important;
+}
+
+.activitybar.right.bordered::before {
+  display: none !important;
+}
+
+.line-numbers {
+  font-size: 14px !important;
+}
+
+.active-line-number {
+  font-weight: bold !important;
+  font-style: italic;
+  font-size: 16px !important;
+}
+
+.monaco-sash.mac.horizontal,
+.monaco-sash.mac.vertical {
+  background: var(--background-dark) !important;
+}
+
+/* Change Panel Tabs Border Color */
+.monaco-workbench
+  .part.panel
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.checked.clicked:focus
+  .active-item-indicator:before,
+.monaco-workbench
+  .part.panel
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.checked:not(:focus)
+  .active-item-indicator:before {
+  border-top-color: var(--highlight-color) !important;
+}
+
+/* Tooltip Box Style */
+.monaco-editor-hover,
+.monaco-hover {
+  padding: 10px !important;
+  backdrop-filter: blur(3px) !important;
+  border: none !important;
+  border-radius: 15px !important;
+  background: var(--tooltip-background) !important;
+  color: var(--tooltip-text-color) !important;
+  font-weight: bold !important;
+  margin: 0 !important;
+}
+
+.monaco-editor-hover a,
+.monaco-hover a,
+.monaco-link,
+.text-search-provider-messages a,
+.monaco-editor .suggest-details a {
+  color: var(--link-color) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+}
+
+.monaco-editor-hover a:hover,
+.monaco-hover a:hover,
+.monaco-link:hover,
+.text-search-provider-messages a:hover,
+.monaco-editor .suggest-details a:hover {
+  text-decoration: underline !important;
+}
+
+/* Buttons */
+.monaco-button,
+.monaco-text-button {
+  background: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+.monaco-count-badge {
+  background: transparent !important;
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  padding: 4px !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+}
+
+.quick-input-action,
+.quick-input-inline-action-bar {
+  display: none !important;
+}
+
+/* Welcome screen  */
+
+.shortcuts .watermark-box dl,
+.monaco-keybinding {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+.monaco-keybinding span {
+  background: var(--tooltip-background) !important;
+  border-radius: 10px !important;
+}
+
+.editor-group-watermark {
+  max-width: none !important;
+}
+
+.letterpress {
+  width: 11% !important;
+}
+
+/* Explorer  */
+
+.explorer-item {
+  font-weight: bold !important;
+}
+
+/* Not a git affected file */
+.explorer-item:not(.monaco-decoration-itemColor--ec98p9):not(
+    .monaco-decoration-itemBadge--1j6k0i
+  ):not(.monaco-decoration-itemBadge-kkyaq5):not(
+    .monaco-decoration-itemBadge--umoq2e
+  ) {
+  color: var(--primary-color) !important;
+}
+
+/* Git affected file */
+.explorer-item.monaco-decoration-itemColor--ec98p9,
+.explorer-item.monaco-decoration-itemBadge--1j6k0i,
+.explorer-item.monaco-decoration-itemBadge-kkyaq5,
+.explorer-item.monaco-decoration-itemBadge--umoq2e {
+  color: var(--primary-color) !important;
+}
+
+/* Git affected tab */
+.tab .monaco-icon-label.monaco-decoration-itemColor--ec98p9,
+.tab .monaco-icon-label.monaco-decoration-itemBadge--1j6k0i,
+.tab .monaco-icon-label.monaco-decoration-itemBadge-kkyaq5,
+.tab.monaco-icon-label.monaco-decoration-itemBadge--umoq2e {
+  color: var(--primary-color) !important;
+}
+
+/* Git tab decorations */
+.tab .monaco-icon-label.monaco-decoration-itemColor--ec98p9::after,
+.tab .monaco-icon-label.monaco-decoration-itemBadge--1j6k0i::after,
+.tab .monaco-icon-label.monaco-decoration-itemBadge-kkyaq5::after,
+.tab.monaco-icon-label.monaco-decoration-itemBadge--umoq2e::after {
+  font-weight: normal !important;
+  font-size: 15px !important;
+}

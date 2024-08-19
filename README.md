@@ -5,6 +5,8 @@ This config is built using the [Ommi Owl](https://marketplace.visualstudio.com/i
 
 ![Custom config 1](./images/vscode-config-1.png)
 ![Custom config 2](./images/vscode-config-2.png)
+![Custom config 3](./images/vscode-config-3.png)
+![Custom config 4](./images/vscode-config-4.png)
 
 # Install
 
